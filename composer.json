@@ -1,0 +1,23 @@
+{
+    "name": "griiv/php-utils",
+    "description": "php utils function for array, strings, etc...",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arnaud Scoté",
+            "email": "arnaud@griiv.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Griiv\\Utils\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.9"
+    }
+}
